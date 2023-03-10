@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgb(178, 220, 222);
+  border-radius: 10px;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  top: 150px;
+  background-color: rgb(178, 220, 222);
+  font-family: cursive
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgb(178, 220, 222);
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 100px;
+  background-color: rgb(178, 220, 222);
+  font-family: cursive
+}
+
+.ClientForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgb(178, 220, 222);
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;
+  position: relative;
+  top: 90px;
+  background-color: rgb(178, 220, 222);
+  font-family: cursive
+}
+
+.dynamicOuterDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 550px;
+  position: relative;
+
+}
+.dynamicInnerDiv{
+  position: absolute;
+  top: 12%;
+  
+
+}
+.dynamicImageDiv{
+  position: relative;
+opacity: 0.5;
+top: 1%;
+  width: 100%;
+  height: 1000px;
+}
+
+.homeAbstract{
+  width: 500px;
+  position: absolute;
+  right: 50%;
+}
+
+
+.leftNavbar {
+  display: flex;
+  position: relative;
+  left: 1%;
+
+}
+
+.rightNavbar {
+  display: flex;
+  position: absolute;
+  right: 2%;
+}
+
+.navbarContainer {
+  background-color: rgb(178, 220, 222);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: cursive
+}
+
+.navLinks {
+  display: block;
+  padding: 5px;
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.footer{
+  background-color:rgb(178, 220, 222);
+  width: 100%;
+  height: 400px;
+}
